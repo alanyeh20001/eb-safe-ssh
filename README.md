@@ -1,6 +1,7 @@
 # eb-safe-ssh
 
 If your EB deployment policy is something like "Rolling with additional batch", you may experience "REMOTE HOST IDENTIFICATION HAS CHANGED!" warning while SSHing into the server after several times of deployment.
+
 It is troublesome to remove host key and re-SSH every time after the deployment, and this tiny script comes to the rescue!
 
 ## Installation
